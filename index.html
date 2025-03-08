@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food4Thought</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">Food4Thought</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+        class="hero-section position-relative text-white text-center d-flex align-items-center justify-content-center"
+        style="background: url('hero-image.jpg') center/cover; height: 100vh; width: 100%;">
+
+        <!-- Main Container for Flex Layout -->
+        <div class="container position-relative z-2 text-center">
+
+            <!-- Logo Image -->
+            <div class="fluid w-100">
+                <img src="fast-food.png" class="img-fluid" alt="Restaurant Logo">
+            </div>
+
+            <!-- Text Overlay -->
+            <div class="position-absolute top-50 start-50 translate-middle w-100 text-white">
+                <div class="">
+                    <h1 class="fw-bold text-danger">Welcome to Delicious Bites</h1>
+                    <p class="fs-3 fw-bold text-danger">Experience the best flavors in town</p>
+                    <a href="#menu" class="btn btn-danger btn-lg">Explore Our Menu</a>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="container py-5">
+        <h2 class="text-center mt-32">Our Menu</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="il_794xN.6441618057_idlq.webp" class="card-img-top" alt="Dish 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Grilled Steak</h5>
+                        <p class="card-text">Juicy steak with fresh herbs and spices.</p>
+                        <p class="fw-bold">$25.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="il_794xN.6441618051_ormv.webp" class="card-img-top" alt="Dish 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pasta Primavera</h5>
+                        <p class="card-text">Freshly made pasta with seasonal vegetables.</p>
+                        <p class="fw-bold">$18.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="il_1140xN.6441618057_idlq.webp" class="card-img-top" alt="Dish 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Gourmet Burger</h5>
+                        <p class="card-text">Thick beef patty with melted cheese and fresh toppings.</p>
+                        <p class="fw-bold">$15.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 max-w-2%">
+                <img src="pngtree-food-logo-png-image_8239850.png" class="img-fluid rounded" alt="About Us">
+            </div>
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>Delicious Bites is dedicated to offering the finest gourmet meals, prepared with passion and the
+                    freshest ingredients. Our chefs are committed to bringing you a memorable dining experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-danger text-white text-center py-3">
+        <p>&copy; 2024 Delicious Bites. All Rights Reserved.</p>
+        <div>
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
